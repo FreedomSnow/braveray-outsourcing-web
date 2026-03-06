@@ -118,7 +118,7 @@ const translations: Record<Language, Messages> = {
     },
     services: {
       heading: "核心开发服务",
-      intro: "100%热忱投入每个开发项目，认真负责对待每一行代码，用专业和诚信赢得客户信任。",
+      intro: "100%热忱投入每个开发项目，覆盖上位机开发、网站开发、移动与嵌入式场景，认真负责对待每一行代码，用专业和诚信赢得客户信任。",
       items: [
         {
           title: "移动应用开发",
