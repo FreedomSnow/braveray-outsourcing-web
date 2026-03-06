@@ -21,6 +21,6 @@ else
 fi
 
 # 推送到gh-pages分支
-git push -f https://github.com/FreedomSnow/braveray.git gh-pages
+git push -f https://github.com/FreedomSnow/braveray-outsourcing-site.git gh-pages
 
 cd -
