@@ -101,7 +101,7 @@ const translations: Record<Language, Messages> = {
       badge: "专业软件开发服务",
       titleLine1: "专业软件开发",
       titleHighlight: "定制您的解决方案",
-      description: "我们致力于为每个客户提供专业、可靠的定制化解决方案，建立长期合作关系。",
+      description: "我们提供上位机开发、网站开发、移动与嵌入式定制服务，致力于为每个客户交付专业、可靠的解决方案并建立长期合作关系。",
       cta: "立即咨询",
       tags: [
         { title: "移动应用开发", description: "iOS / Android / 跨平台" },
@@ -118,7 +118,7 @@ const translations: Record<Language, Messages> = {
     },
     services: {
       heading: "核心开发服务",
-      intro: "100%热忱投入每个开发项目，认真负责对待每一行代码，用专业和诚信赢得客户信任。",
+      intro: "100%热忱投入每个开发项目，覆盖上位机开发、网站开发、移动与嵌入式场景，认真负责对待每一行代码，用专业和诚信赢得客户信任。",
       items: [
         {
           title: "移动应用开发",
@@ -247,7 +247,7 @@ const translations: Record<Language, Messages> = {
       badge: "Professional software development",
       titleLine1: "Professional software development",
       titleHighlight: "Tailored solutions for you",
-      description: "We deliver reliable, custom solutions and build long-term partnerships for every client.",
+      description: "We deliver desktop application development, website development, mobile and embedded solutions with reliable custom delivery for long-term partnerships.",
       cta: "Get a quote",
       tags: [
         { title: "Mobile App Development", description: "iOS / Android / Cross-platform" },
@@ -264,7 +264,7 @@ const translations: Record<Language, Messages> = {
     },
     services: {
       heading: "Core Services",
-      intro: "We put 100% into every project, treating each line of code with care and earning trust through expertise and integrity.",
+      intro: "We put 100% into every project across desktop development, website development, mobile, and embedded domains, earning trust through expertise and integrity.",
       items: [
         {
           title: "Mobile App Development",
