@@ -70,7 +70,7 @@ const Header = () => {
       <div className="container-1440 px-6 md:px-12 flex items-center justify-between h-16">
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <img src="/braveray/webp/logo.webp" alt={messages.header.logoAlt} className="h-8 w-8" />
+          <img src={`${import.meta.env.BASE_URL}webp/logo.webp`} alt={messages.header.logoAlt} className="h-8 w-8" />
           <span className="text-lg font-semibold tracking-tight text-gray-900">
             {messages.header.brandName}
           </span>

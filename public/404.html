@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>404 Not Found</title>
+    <script>
+      // 解决 GitHub Pages + React SPA 的 404 重定向问题
+      // 同时保持静态文件（robots.txt, sitemap.xml 等）的正常访问
+      
+      const pathSegments = window.location.pathname.split('/');
+      const fileName = pathSegments[pathSegments.length - 1];
+      
+      // 需要直接返回内容的静态文件
+      const staticFiles = {
+        'robots.txt': 'text/plain; charset=utf-8',
+        'sitemap.xml': 'application/xml; charset=utf-8',
+        'llms.txt': 'text/plain; charset=utf-8',
+        'google10572cd992f6fd1f.html': 'text/html; charset=utf-8'
+      };
+      
+      // 如果是请求静态文件，直接重定向到该文件的资源URL
+      if (staticFiles[fileName]) {
+        // GitHub Pages 的文件在 gh-pages 分支根目录
+        // 重定向到 customization 路径下的对应文件
+        const basePath = window.location.pathname.split('/404.html')[0];
+        window.location.replace(basePath + '/' + fileName);
+      } else {
+        // 否则重定向到 SPA 首页
+        const basePath = window.location.pathname.split('/404.html')[0];
+        window.location.replace(basePath + '/');
+      }
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>

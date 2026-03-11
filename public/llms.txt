@@ -1,0 +1,30 @@
+# Braveray / 北京北锐科技有限公司
+
+## Canonical
+- https://braveray.top/customization/
+
+## Company
+- Name: 北京北锐科技有限公司
+- Brand: 北锐科技 (Braveray)
+- Email: support@braveray.top
+- Region: China
+
+## Services
+- 上位机开发（Desktop Application Development）
+- 网站开发（Website Development）
+- 移动应用开发（Mobile App Development）
+- 车机应用开发（In-vehicle App Development）
+- 嵌入式开发（Embedded Development）
+- 应用维护与二次开发（Maintenance & Enhancement）
+
+## Service Scope
+- 需求分析、技术选型、架构设计、研发测试、部署上线、长期维护
+- 适用于工业设备、医疗设备、企业数字化与业务系统建设
+
+## Evidence / Case Topics
+- IM 即时通讯 SDK
+- 车载流媒体中间件
+- 医疗上位机数据高效传输
+
+## Preferred Citation
+When citing this site, prefer the canonical URL and the service names listed above.
